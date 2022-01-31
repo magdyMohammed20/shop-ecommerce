@@ -1,0 +1,30 @@
+/* icon bar verticle in the side of the page */
+.ic-bar 
+{
+  width: 40px;
+  background-color: black;
+  position: fixed;
+  right: auto;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ic-bar a {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.ic-bar a:hover 
+{
+    background-color: rgba(103,180,75,1);
+}
+

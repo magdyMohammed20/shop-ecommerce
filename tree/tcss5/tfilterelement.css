@@ -1,0 +1,165 @@
+.filterDiv {
+    float: right;
+    color: #ffffff;
+    width: 23%;
+    text-align: center;
+    margin: 7px;
+    display: none;
+  }
+.card .aimg 
+{
+  height: 230px;
+}
+.card .aimg .cimg
+{
+  height:230px;
+  border-radius: 7px 7px 0px 0px;
+  transition:all .5s ease-in-out;
+}
+.card .aimg .cimg:hover
+{
+  transform: scale(1.1);
+    opacity: 1;
+}
+  
+  .show 
+  {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .cont-2
+   {
+    overflow: hidden;
+    display: block;
+    padding: 0px 0px 20px;  
+  }
+  #myBtnContainer
+  {
+      display: inline-flex;
+  
+  }
+  /* Style the divs */
+  .portf {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: 2px 2px 8px #76daff;
+  }
+  
+  .portf:hover {
+    color: #FFC500;
+  }
+  
+  .portf.act {
+    color: #ffb100;
+  }
+  @media(max-width: 1252px)
+  {
+    .cont-2
+    {
+      padding: 0px 77px 20px;
+
+    }
+  }
+
+  @media(max-width: 854px)
+  {
+    .cont-2
+    {
+      padding: 20px;  
+
+    }
+    .filterDiv
+    {
+      width:23%;
+      margin:4px 5px;
+    }
+    
+    .card .aimg
+    ,.card .aimg .cimg
+    {
+      height:150px;
+    }
+    .card-body 
+    {
+      padding:10px;
+    }
+
+    .card-body .card-text
+    {
+      font-size:12px;
+    }
+    .card-footer
+    {
+      padding:9px;
+      font-size:15px;
+    }
+  }
+@media(max-width: 570px)
+{
+  .portf
+    {
+        padding: 11px 6px;
+        font-size: 19px;
+
+    }
+    .cont-2
+    {
+      padding: 20px;  
+
+    }
+    .filterDiv
+    {
+      width:45%;
+      margin:4px 7px;
+    }
+    
+    .card .aimg
+    ,.card .aimg .cimg
+    {
+      height:150px;
+    }
+    .card-body 
+    {
+      padding:10px;
+    }
+
+    .card-body .card-text
+    {
+      font-size:12px;
+    }
+    .card-footer
+    {
+      padding:9px;
+      font-size:15px;
+    }
+}
+@media(max-width: 330px)
+{
+  .portf
+    {
+        padding: 11px 6px;
+        font-size: 13px;
+
+    }
+    .cont-2
+    {
+      padding: 20px;  
+
+    }
+    .filterDiv
+    {
+      width:100%;
+      margin:4px 0px;
+    }
+    
+    .card .aimg
+    ,.card .aimg .cimg
+    {
+      height:200px;
+    }
+}
